@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    text-wrap: wrap;
+}
+.section-1{
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(./imggg/NET-FLIX-SIGN-UP3.jpg);
+    background-size: cover;
+    display: block;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 25px ;
+    overflow: hidden;
+    z-index: -1;
+}
+.section-1 .sect{
+    width: inherit;
+    height: inherit;
+    display: block;
+    position: relative;
+}
+.section-1 .sect header{
+    width: inherit;
+    height: 100px;
+    margin-left: 163px;
+}
+.section-1 .sect header .logo{
+    height: 2.5rem;
+}
+.section-1 .sect .sect-body{
+    width: 450px;
+    background-color: #000000c2;
+    padding: 60px 20px 80px 20px;
+    height: auto;
+    margin: auto;
+}
+/* .section-1 .sect .sect-body form{
+    margin: auto;
+    background-color: #0000008a;
+} */
+.section-1 .sect .sect-body form .txt{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+}
+.section-1 .sect .sect-body form input{
+    background-color: #130f0fc6;
+    color: #fff;
+}
+.section-1 .sect .sect-body form .inp::placeholder{
+    color: grey;
+}
+.section-1 .sect .sect-body form p{
+    color: #fff;
+}
+.section-1 .sect .sect-body form .btn-1{
+    background-color: #E50914;
+    color: #fff;
+    font-weight: 500;
+}
+.section-1 .sect .sect-body form .btn-1:hover{
+    background-color: #C11119;
+}
+.section-1 .sect .sect-body form .btn-2{
+    background-color: #ffffff35;
+    color: #fff;
+    font-weight: 500;
+}
+.section-1 .sect .sect-body form .btn-2:hover{
+    background-color: #ffffff20;
+}
+
+.section-1 .sect .sect-body form a{
+    color: #fff;
+    font-size: 16px;
+}
+.section-1 .sect .sect-body form a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.section-1 .sect .sect-body form label{
+    color: #fff;
+}
+
+footer span a{
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+footer button{
+    background-color: transparent;
+    border: none;
+    color: blue;
+}
+footer button:hover{
+    text-decoration: underline;
+}
+
+
+/* media RESPONSIVENESS  */
+
+@media (max-width: 1150px){
+    .section-1 .sect header{
+        width: inherit;
+        height: 100px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 960px){
+    .section-1 .sect header .logo{
+        height: 1.5rem;
+    }
+}
+
+@media (max-width: 600px){
+    .section-1{
+        background-image: none;
+        padding-top: 25px;
+    }
+    .section-1 .sect .header .logo{
+        margin-left: -20px;
+    }
+    .section-1 .sect .sect-body{
+        width: 100%;
+        margin-top: -100px;
+    }
+}
